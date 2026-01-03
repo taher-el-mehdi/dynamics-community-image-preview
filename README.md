@@ -5,6 +5,8 @@ A lightweight browser extension that enables inline image preview on Microsoft D
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
+> 🌐 **[Visit the project website](https://yourusername.github.io/community-image-viewer/)** for a visual overview and installation guide
+
 ## 🎯 Features
 
 - **Inline Image Preview**: View images directly in the browser without downloading
