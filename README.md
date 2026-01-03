@@ -5,7 +5,7 @@ A lightweight browser extension that enables inline image preview on Microsoft D
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
-> 🌐 **[Visit the project website](https://yourusername.github.io/community-image-viewer/)** for a visual overview and installation guide
+> 🌐 **[🖼️ Dynamics Community Image Viewer](https://taher-el-mehdi.github.io/dynamics-community-image-preview/)** for a visual overview and installation guide
 
 ## 🎯 Why This Extension?
 
