@@ -71,7 +71,7 @@ This extension enables **one-click inline preview** with a beautiful modal, zoom
 
 1. **Download or Clone** this repository:
    ```bash
-   git clone https://github.com/yourusername/community-image-viewer.git
+   git clone https://github.com/taher-el-mehdi/dynamics-community-image-preview.git
    ```
 
 2. **Open Extension Management Page**:
@@ -255,7 +255,7 @@ Contributions are welcome! Please follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/community-image-viewer.git
+git clone https://github.com/taher-el-mehdi/dynamics-community-image-preview.git
 cd community-image-viewer
 
 # Make changes to files in src/ folder
