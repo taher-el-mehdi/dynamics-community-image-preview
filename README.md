@@ -7,16 +7,61 @@ A lightweight browser extension that enables inline image preview on Microsoft D
 
 > 🌐 **[Visit the project website](https://yourusername.github.io/community-image-viewer/)** for a visual overview and installation guide
 
+## 🎯 Why This Extension?
+
+### The Problem
+
+On Dynamics Community forums, shared images aren't previewable inline. You must **download each image locally** just to view it—which is slow, disruptive, and breaks your reading flow.
+
+### The Solution
+
+This extension enables **one-click inline preview** with a beautiful modal, zoom controls, and keyboard shortcuts—no downloads required!
+
+| Without Extension | With Extension |
+|------------------|----------------|
+| ❌ Must download images | ✅ Instant inline preview |
+| ❌ Cluttered downloads folder | ✅ Clean browsing experience |
+| ❌ Slow workflow | ✅ Fast, seamless workflow |
+| ❌ No zoom/pan controls | ✅ Advanced zoom & pan |
+| ❌ Context switching | ✅ Stay in the forum |
+
+## 📸 Visual Preview
+
+### Extension in Action
+
+<div align="center">
+  <img src="assets/screenshots/main.png" alt="Extension Overview" width="800"/>
+  <p><em>Image links on Dynamics Community forums with preview indicators</em></p>
+</div>
+
+### Image Preview Modal
+
+<div align="center">
+  <img src="assets/screenshots/image-previewer.png" alt="Image Preview Modal" width="800"/>
+  <p><em>Beautiful lightbox modal with zoom and pan controls</em></p>
+</div>
+
+### Zoom & Pan Features
+
+<div align="center">
+  <img src="assets/screenshots/zoom-in.png" alt="Zoom Controls" width="800"/>
+  <p><em>Mouse wheel zoom, keyboard shortcuts, and drag-to-pan support</em></p>
+</div>
+
+---
+
 ## 🎯 Features
 
-- **Inline Image Preview**: View images directly in the browser without downloading
-- **Click-to-Preview**: Click any image link or attachment to open a lightbox modal
-- **Zoom & Pan**: Mouse wheel zoom, keyboard shortcuts, and drag support
-- **Keyboard Navigation**: Full keyboard control (ESC, +/−, Arrow keys)
-- **Lightweight**: Pure vanilla JavaScript, no external dependencies
-- **Privacy-First**: No tracking, no external network calls, no data collection
-- **Responsive**: Works seamlessly on desktop and mobile browsers
-- **Accessible**: High contrast mode, reduced motion support, keyboard accessible
+| Feature | Description | Preview |
+|---------|-------------|----------|
+| **🔍 Inline Preview** | View images directly in the browser without downloading | ![Preview](assets/screenshots/main.png) |
+| **🖱️ Click-to-Preview** | Click any image link or attachment to open a lightbox modal | ![Modal](assets/screenshots/image-previewer.png) |
+| **🔎 Zoom & Pan** | Mouse wheel zoom, keyboard shortcuts, and drag support | ![Zoom](assets/screenshots/zoom-in.png) |
+| **⌨️ Keyboard Navigation** | Full keyboard control (ESC, +/−, Arrow keys) | ✅ ESC, +/−, 0, Arrows |
+| **⚡ Lightweight** | Pure vanilla JavaScript, no external dependencies | ~30KB total |
+| **🔒 Privacy-First** | No tracking, no external network calls, no data collection | Zero telemetry |
+| **📱 Responsive** | Works seamlessly on desktop and mobile browsers | All devices |
+| **♿ Accessible** | High contrast mode, reduced motion support, keyboard accessible | WCAG compliant |
 
 ## 🚀 Installation
 
@@ -63,6 +108,12 @@ _Firefox support coming soon. The extension uses Manifest V3 which is fully comp
 3. **Preview** opens in a beautiful lightbox modal
 4. **Close** by clicking outside the image, pressing ESC, or clicking the × button
 
+<div align="center">
+  <img src="assets/screenshots/main.png" alt="Usage Example" width="700"/>
+  <p><em>Step-by-step: Find images → Click to preview → Enjoy full-size view</em></p>
+</div>
+4. **Close** by clicking outside the image, pressing ESC, or clicking the × button
+
 ### Keyboard Shortcuts
 
 | Key | Action |
@@ -81,7 +132,26 @@ _Firefox support coming soon. The extension uses Manifest V3 which is fully comp
 - **Click & Drag** zoomed images to pan
 - **Mouse Wheel** over image to zoom in/out
 
-## 🛠️ Technical Details
+## � Screenshots Gallery
+
+### 1. Extension Integration
+The extension seamlessly integrates with Dynamics Community forum threads, adding visual indicators to all image links.
+
+![Extension Integration](assets/screenshots/main.png)
+
+### 2. Image Preview Modal
+Click any image to open a beautiful, responsive lightbox modal with smooth animations.
+
+![Image Preview Modal](assets/screenshots/image-previewer.png)
+
+### 3. Zoom & Pan Controls
+Advanced zoom features with mouse wheel support, keyboard shortcuts, and intuitive drag-to-pan.
+
+![Zoom Controls](assets/screenshots/zoom-in.png)
+
+---
+
+## �🛠️ Technical Details
 
 ### Architecture
 
